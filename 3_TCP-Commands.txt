@@ -1,0 +1,6 @@
+javac FileTransferServer.java FileTransferClient.java
+
+java FileTransferServer
+
+# IN New Terminal
+java FileTransferClient localhost <filename>.txt
